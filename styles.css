@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+*{
+	background-color: pink;
+	font-weight: bold;
+	border-radius:10px;
+}
+#btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+	border-radius: 12px;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
