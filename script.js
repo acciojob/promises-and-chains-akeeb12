@@ -10,7 +10,7 @@ event.preventDefault();
 		return;
 	}
 
-	new Promise ((resolv, reject) =>{
+	new Promise ((resolve, reject) =>{
 		setTimeout() =>{
 			if(age >= 18){
 				resolve (`Welcome, ${name} You can vote.`);
